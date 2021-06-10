@@ -1,0 +1,150 @@
+G95 module created on Thu Nov 26 10:45:59 2020 from metodos_aproximacion.f90
+If you edit this, you'll get what you deserve.
+module-version 9
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'atan' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC UNKNOWN NONE
+NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+3 'deriv' 'my_funcs' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+DIMENSION FUNCTION INVOKED) (REAL 8) 0 0 (4 NONE 5 NONE) (1 EXPLICIT (
+CONSTANT (INTEGER 4) 0 '1') (CONSTANT (INTEGER 4) 0 '2')) () '' () ())
+6 'derivf' 'my_funcs' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+FUNCTION) (REAL 8) 0 0 (7 NONE) () () '' () ())
+8 'f' 'my_funcs' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+FUNCTION) (REAL 8) 0 0 (9 NONE) () () '' () ())
+10 'ikind1' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '1') () () '' () ())
+11 'ikind16' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '-1') () () '' () ())
+12 'ikind2' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '2') () () '' () ())
+13 'ikind4' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '4') () () '' () ())
+14 'ikind8' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '8') () () '' () ())
+15 'k' 'metodos_aproximacion' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL
+NONE NONE DIMENSION FUNCTION RECURSIVE INVOKED) (REAL 8) 0 0 (16 NONE 17
+NONE 18 NONE 19 NONE 20 NONE 21 NONE 22 NONE) (1 EXPLICIT (CONSTANT (
+INTEGER 4) 0 '1') (CONSTANT (INTEGER 4) 0 '2')) () '' () ())
+23 'kinds' 'kinds' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+24 'metodo_euler' 'metodos_aproximacion' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (25 NONE 26
+NONE 27 NONE) () () '' () ())
+28 'metodo_heun' 'metodos_aproximacion' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (29 NONE 30
+NONE 31 NONE) () () '' () ())
+32 'metodo_puntomedio' 'metodos_aproximacion' 1 ((PROCEDURE UNKNOWN
+MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (33 NONE 34
+NONE 35 NONE) () () '' () ())
+36 'metodo_rungekutta_orden4' 'metodos_aproximacion' 1 ((PROCEDURE
+UNKNOWN MODULE-PROC DECL NONE NONE SUBROUTINE) (PROCEDURE 0) 0 0 (37
+NONE 38 NONE 39 NONE) () () '' () ())
+40 'metodos_aproximacion' 'metodos_aproximacion' 1 ((MODULE UNKNOWN
+UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0 () () () '' () ())
+41 'my_funcs' 'my_funcs' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+UNKNOWN) 0 0 () () () '' () ())
+42 'order' 'my_funcs' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '2') () () '' () ())
+43 'p' 'metodos_aproximacion' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL
+NONE NONE DIMENSION FUNCTION INVOKED) (REAL 8) 0 0 (44 NONE 45 NONE 46
+NONE 47 NONE 48 NONE 49 NONE 50 NONE) (1 EXPLICIT (CONSTANT (INTEGER 4)
+0 '1') (CONSTANT (INTEGER 4) 0 '2')) () '' () ())
+51 'pi' 'my_funcs' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+REAL 8) 0 0 () (CONSTANT (REAL 8) 0 '7074237948887040' 0 1024) () () ''
+() ())
+52 'rkind10' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '10') () () '' () ())
+53 'rkind16' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '16') () () '' () ())
+54 'rkind4' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '4') () () '' () ())
+55 'rkind8' 'kinds' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+INTEGER 4) 0 0 () (CONSTANT (INTEGER 4) 0 '8') () () '' () ())
+56 'selected_int_kind' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC
+UNKNOWN NONE NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+57 'selected_real_kind' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC
+UNKNOWN NONE NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+50 'n_funcion' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 4) 0 0 () () () '' () ())
+49 'h' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+48 'y' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+47 'x' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+46 'b' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+45 'a' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+44 'g' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+39 'h' '' 59 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+38 'x' '' 59 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+37 'y' '' 59 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+35 'h' '' 60 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+34 'x' '' 60 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+33 'y' '' 60 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+31 'h' '' 61 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+30 'x' '' 61 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+29 'y' '' 61 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+27 'h' '' 62 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+26 'x' '' 62 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+25 'y' '' 62 ((VARIABLE INOUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+22 'n_funcion' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (
+INTEGER 4) 0 0 () () () '' () ())
+21 'h' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+20 'y' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+19 'x' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+18 'b' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (2 ASSUMED_SHAPE () () () ()) () '' () ())
+17 'a' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 8) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+16 'j' '' 63 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (INTEGER 4)
+0 0 () () () '' () ())
+9 'x' '' 64 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8) 0 0
+() () () '' () ())
+7 'x' '' 65 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+5 'x' '' 66 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 8) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4) 0 '1') (CONSTANT (
+INTEGER 4) 0 '2')) () '' () ())
+4 't' '' 66 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 8)
+0 0 () () () '' () ())
+)
+
+('atan' 0 2 'deriv' 0 3 'derivf' 0 6 'f' 0 8 'ikind1' 0 10 'ikind16' 0
+11 'ikind2' 0 12 'ikind4' 0 13 'ikind8' 0 14 'k' 0 15 'kinds' 0 23
+'metodo_euler' 0 24 'metodo_heun' 0 28 'metodo_puntomedio' 0 32
+'metodo_rungekutta_orden4' 0 36 'metodos_aproximacion' 0 40 'my_funcs' 0
+41 'order' 0 42 'p' 0 43 'pi' 0 51 'rkind10' 0 52 'rkind16' 0 53 'rkind4'
+0 54 'rkind8' 0 55 'selected_int_kind' 0 56 'selected_real_kind' 0 57)

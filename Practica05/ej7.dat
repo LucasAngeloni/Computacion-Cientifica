@@ -1,0 +1,9 @@
+5 !Cantidad de datos
+0.25 0.28
+0.75 0.57
+1.25 0.68
+1.75 0.74
+2.25 0.79
+1 1 !Valores iniciales para los parametros
+1000 !Numero maximo de iteraciones
+1E-6 !Tolerancia sobre el error relativo

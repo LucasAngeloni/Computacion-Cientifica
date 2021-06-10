@@ -1,0 +1,8 @@
+5 !Tamaño de la matriz
+1 1 2 -6 -1 10
+1 -1 -2 -1 9 4
+2 2 -8 -1 -1 1
+-1 -9 1 2 1 6
+5 1 -1 -1 1 0 !Matriz ampliada
+10E-8   !Tolerancia
+0 1 -1 -2 0.1 !Semilla

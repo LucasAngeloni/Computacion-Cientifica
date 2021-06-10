@@ -1,0 +1,3 @@
+5 2 4 30 15 45 !Tensiones y angulos en grados
+1000 !Iteraciones max
+10E-8 !Tolerancia

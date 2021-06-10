@@ -1,0 +1,4 @@
+0.0      !x0
+5.0      !x superior
+5.0 0    !angulo en grados - velocidad angular inicial(w0)
+0.1    !h

@@ -1,0 +1,4 @@
+2 !numero de raices
+1 !Valor minimo del intervalo
+20 !Valor maximo del intervalo
+10E-8 !Tolerancia
